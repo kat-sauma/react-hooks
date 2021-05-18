@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<DocumentFragment>
+  <main>
+    <section
+      aria-label="button"
+      class="button"
+    >
+      <h2>
+        What'd they say?
+      </h2>
+      <button>
+        Uhhhh...
+      </button>
+    </section>
+    <figure>
+      <img />
+      <figcaption />
+    </figure>
+  </main>
+</DocumentFragment>
+`;
