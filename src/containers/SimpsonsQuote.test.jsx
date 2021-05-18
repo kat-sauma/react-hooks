@@ -32,7 +32,7 @@ describe('SimpsonsQuote Container', () => {
         fireEvent.click(button);
 
         return waitFor(() => {
-            screen.getByAltText('Nelson Muntz');
+            screen.getByText('Nelson Muntz');
             screen.getByText(
                 'Shoplifting is a victimless crime, like punching someone in the dark.'
                 );

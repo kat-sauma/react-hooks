@@ -1,4 +1,4 @@
-const getQuote = async () => {
+export const getQuote = async () => {
     const res = await fetch('https://thesimpsonsquoteapi.glitch.me/quotes');
     const json = await res.json();
 
