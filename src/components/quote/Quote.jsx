@@ -9,9 +9,9 @@ const Quote = ({ name, text, image }) => (
 );
 
 Quote.propTypes = {
-    name: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired
+    name: PropTypes.string,
+    text: PropTypes.string,
+    image: PropTypes.string
 };
 
 export default Quote;

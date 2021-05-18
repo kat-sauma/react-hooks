@@ -7,14 +7,18 @@ const SimpsonsQuote = () => {
     const [quote, setQuote] = useState({});
 
     const handleClick = async () => {
-        const quote = await getQuote();
-        setQuote(quote);
+        const newQuote = await getQuote();
+        setQuote(newQuote);
     };
 
     return (
         <main>
             <Load onClick={handleClick} />
-            <Quote { ...quote } />
+            <Quote 
+            text={quote.text}
+            image={quote.image}
+            name={quote.name}
+            />
         </main>
     );
 };
